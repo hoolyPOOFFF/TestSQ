@@ -20,7 +20,7 @@
             android:name=".RegisterActivity">
         </activity>
         <activity
-            android:name=".AllUsers">
+            android:name=".AllUsersActivity">
         </activity>
     </application>
 

@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "Login Successfully", Toast.LENGTH_LONG).show()
 
             // Going to Dashboard activity after login success message.
-            val intent = Intent(this@MainActivity, AllUsers::class.java)
+            val intent = Intent(this@MainActivity, AllUsersActivity::class.java)
 
             // Sending Email to Dashboard Activity using intent.
             intent.putExtra(UserEmail, EmailHolder)
